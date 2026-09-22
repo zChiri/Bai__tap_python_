@@ -105,7 +105,7 @@ def cap_nhat_hang_ton(kho):
 def main():
     kho = nhap_kho()
     while True:
-        print(menu())
+        menu()
         choice = input("Mời bạn chọn chức năng(1-4): ")
         if choice == "1":
             show_kho(kho)
